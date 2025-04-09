@@ -3,7 +3,7 @@
 const Child = ({x})=>{
 
     return(
-<div style={{backgroundColor:"brown"}}>
+<div className="child" style={{backgroundColor:"brown"}}>
     <h1>Child Component</h1>
     <form>
     <input type = "text"

@@ -6,7 +6,7 @@ let [value,setvalue] = useState()
 
 
     return(
-<div style = {{backgroundColor:"green"}}>
+<div className="parent" style = {{backgroundColor:"green"}}>
     <h1>Parent Component</h1>
     <p style={{color:"red"}}>{value}</p>
     <Child 
